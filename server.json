@@ -4,8 +4,15 @@
   "title": "EmailFig",
   "description": "Check results, update contacts and draft campaigns in your EmailFig account.",
   "websiteUrl": "https://emailfig.com/help/api/connect-claude-and-chatgpt",
-  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/EmailFig/mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
   "remotes": [
-    { "type": "streamable-http", "url": "https://emailfig.com/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://emailfig.com/mcp"
+    }
   ]
 }
