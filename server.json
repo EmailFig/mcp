@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.emailfig/emailfig",
+  "title": "EmailFig",
+  "description": "Check results, update contacts and draft campaigns in your EmailFig account.",
+  "websiteUrl": "https://emailfig.com/help/api/connect-claude-and-chatgpt",
+  "version": "1.0.0",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://emailfig.com/mcp" }
+  ]
+}
