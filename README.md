@@ -40,6 +40,7 @@ You need an EmailFig account. [Sign up free](https://emailfig.com) if you don't 
   }
   ```
 
+- **Hermes Agent**: `hermes plugins install emailfig`, then `hermes plugins enable emailfig`. See [hermes/](hermes/).
 - **Any other MCP client**: point it at `https://emailfig.com/mcp`.
 
 Your browser opens EmailFig. Sign in, choose the account, and click **Approve**. Apps other than Claude, Claude Code and ChatGPT are marked unverified on that page; only approve a connection you just started. Each connection covers one account, and you can disconnect it any time from **Settings > Integrations**.

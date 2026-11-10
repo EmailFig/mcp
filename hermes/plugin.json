@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "emailfig",
+  "version": "1.0.0",
+  "description": "Work in your EmailFig email marketing account from your AI agent: check campaign and automation results, look up and update contacts, and draft campaigns you review and send in EmailFig.",
+  "author": {
+    "name": "EmailFig",
+    "email": "contact@emailfig.com",
+    "url": "https://emailfig.com"
+  },
+  "homepage": "https://emailfig.com",
+  "repository": "https://github.com/EmailFig/mcp",
+  "license": "MIT",
+  "keywords": ["email", "email-marketing", "newsletter", "contacts", "campaigns", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "emailfig": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
